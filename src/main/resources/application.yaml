@@ -1,0 +1,17 @@
+server:
+  port: 1001
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/test
+    username: root
+    password: Zara2025!
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+  liquibase:
+    change-log: classpath:liquibase/changelog-master.yaml
+
+
+## use yml
+## build.gradle da olan versiyalari gradle.properties file a dasi yaradaraq
+## groupName de apararsan eyni zamanda appVersion-u da
