@@ -1,6 +1,6 @@
 databaseChangeLog:
   - changeSet:
-      id: create-book_details
+      id: 20251002
       author: Zara
       changes:
         - createTable:
@@ -20,7 +20,7 @@ databaseChangeLog:
                     nullable: false
               - column:
                   name: surname
-                  type: VARCHAR (255)
+                  type: VARCHAR(255)
                   constraints:
                     nullable: false
               - column:
@@ -28,7 +28,3 @@ databaseChangeLog:
                   type: INTEGER
                   constraints:
                     nullable: false
-
-
-
-
